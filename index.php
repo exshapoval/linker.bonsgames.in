@@ -1,9 +1,6 @@
 <?php
+include_once 'config.php';
 if(count($_POST)>1){
-    $servername = "localhost";
-    $username = "linkbuilder";
-    $password = "Linkbuilder\$userpass7";
-    $dbname = "linkbuilder";
 
 // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
