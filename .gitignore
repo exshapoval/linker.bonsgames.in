@@ -1,0 +1,16 @@
+# ignore OS-related files
+.DS_Store
+
+# ignore IDE-related files
+.idea
+.idea*
+nbproject/
+nbproject/*
+
+gitupdate/
+gitupdate/*
+
+commit.sh
+
+.htaccess
+config.php
