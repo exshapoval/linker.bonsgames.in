@@ -41,3 +41,15 @@
     cursor: not-allowed;
     background-color: #fefefe;
 }
+
+.off-canvas {
+    z-index: 99999 !important;
+}
+
+.list-group-item.active a:visited {
+    color: white;
+}
+
+select {
+    width: 10% !important;
+}
